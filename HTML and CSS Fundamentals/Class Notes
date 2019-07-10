@@ -1,1 +1,11 @@
+https://www.youtube.com/watch?v=lkvZjVmnhfw&feature=youtu.be
+
+<span>
+The span element is a generic text container. It does not create a new line like the p element does. 
+This element is invisible by default but can be used for styling words or phrases within a larger body of text.
+
+<div>
+The div element is a generic container. It is used primarily for grouping other HTML elements together. 
+It is invisible by default but can be used to position or style a group of elements.
+
 
