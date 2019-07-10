@@ -1,0 +1,41 @@
+h1 {
+  display: inline;
+  margin: 100px;
+  padding: 2px;
+  
+}
+
+p {
+  position: static;
+
+}
+
+span {
+  font-weight: bold;
+  color: red;
+  background-color: yellow;
+  font-size: 20pt
+}
+
+.products {
+  background:blue;
+  color:white;
+  font-weight: bold;
+  width: 370px;
+  height: 100px;
+  border:10px solid red;
+}
+
+#myHeader {
+  background-color: lightblue;
+  color: black;
+  padding: 40px;
+  text-align: center;
+}
+
+#SecondID {
+  background-color: black;
+  color: red;
+  padding: 40px;
+  text-align: center;
+}
