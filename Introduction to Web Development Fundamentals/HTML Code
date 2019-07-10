@@ -30,3 +30,25 @@ div {
 span {
   border: solid;
 }
+
+
+---
+HTML
+<a href="http://www.google.com"> </a> anchor tag for websites
+<img src="http://picture"></img> (self closing tag)
+<ul>
+  <li>One </li>
+  <li>One </li>
+  <li>One </li>
+  <li>One </li>
+</ul> unordred list
+
+<ol>
+  <li>One </li>
+  <li>One </li>
+  <li>One </li>
+  <li>One </li>
+</ol> ordred list
+
+
+
