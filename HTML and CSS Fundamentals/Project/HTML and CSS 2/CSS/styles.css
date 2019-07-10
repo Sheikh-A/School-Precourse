@@ -1,0 +1,40 @@
+/* Your code here: */
+
+h3 {
+  color: red;
+  background: grey;
+  
+}
+
+p {
+  color: green;
+  background: black;
+}
+
+span {
+  background:blue;
+  color: white;
+
+}
+
+p.class1 {
+  background:black;
+  color: yellow;
+
+}
+
+.class1 {
+  background: black;
+  color: white;
+  
+}
+
+#id1 {
+  color: red;
+  background: white;
+  
+}
+
+#id2 {
+  background: white;
+  }
