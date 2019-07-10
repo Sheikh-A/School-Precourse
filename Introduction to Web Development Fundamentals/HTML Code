@@ -8,3 +8,25 @@
   <<h1>Code Example:</h1>
   </body>
 </html>
+
+
+---
+
+<h1>Lambda School Intro Class</h1>
+<div>
+  <h2>Oranges</h2>
+  <p>Oranges are orage and make <span> good </span> juice</p>
+</div>
+
+<!-- div is for grouping like things together
+ -->
+
+
+CSS
+div {
+  background-color:orange
+}
+
+span {
+  border: solid;
+}
