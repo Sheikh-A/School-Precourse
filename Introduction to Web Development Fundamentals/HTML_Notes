@@ -1,0 +1,53 @@
+Overview
+What is HTML?
+As already mentioned, HTML (which stands for Hyper Text Markup Language) is one of the languages we use for web development. HTML was created as a language when the first visual web browsers came into existence in the early 90s. It is read by the browser and then used as a blueprint for displaying information on your screen.
+
+HTML is not considered a “programming language”, but is rather what we call a “markup language”. This means that it is specifically designed to render data in a graphical form (rather than execute tasks).
+
+What are HTML elements?
+HTML is made up of elements. We can think of elements as being boxes of content on our web page. Different types of content will be contained in different boxes. For example, we use certain elements for headers, other elements for images, and still other elements for text.
+
+We will be focusing on four different display elements today: division elements (divs), headers, paragraphs, and spans.
+
+How do we use CodePen?
+We will be writing our HTML code in a sandbox environment called CodePen. CodePen is a great learning tool (as well as a great place to tinker with small chunks of code on the job). We write HTML directly in the HTML section of CodePen and the elements that we create will render in real-time onscreen. This is much faster than having to save our file and reload it in the browser every time we make a change.
+
+CodePen also allows us to leave out a couple of critical elements: the html, head, and body elements. These are important to understand when we start writing HTML code in our text editors, but for now, we can ignore them, because CodePen handles them automatically.
+
+What are tags?
+To create an HTML element, we need to use tags. Each element has a specific tag name such as div, p, or span. These tag names are built into the language and must be written exactly as expected in order for our HTML to render correctly. For example, paragraph is not a valid tag name in HTML, but p is. We can use online documentation to verify which tag names exist and what elements they are used for.
+
+Once we know our tag name, we can create an opening tag using brackets: <p>. These tags must be syntactically precise: an opening bracket + a tag name + a closing bracket. A closing tag looks almost exactly the same, except with a backslash before the tag name. So a closing paragraph tag would look like this: </p>. Thus, to create a paragraph, we need only write an opening tag and a closing tag:
+
+Copy
+<p></p>
+Of course, a paragraph isn’t very interesting without text. The content of an HTML element always goes in between the two tags. So a paragraph containing some content would look like this:
+
+Copy
+<p>Don't forget to close your tags in HTML!</p>
+So what are divs, headers, paragraphs, and spans exactly?
+We will be focusing today on four types of display elements. Now that we understand how to create these elements, let’s explore their use cases.
+
+<p>
+The p (“paragraph”) element. This element is meant for holding text. By default, it will render text to the screen on a new line.
+Copy
+  <p>Here is a paragraph!</p>
+<div>
+The div element is a generic container. It is used primarily for grouping other HTML elements together. It is invisible by default but can be used to position or style a group of elements.
+Copy
+<div>
+  <p>This paragraph is about grapefruits.</p>
+  <p>This paragraph is also about grapefruits! I guess it's related to the paragraph above.</p>
+</div>
+<span>
+The span element is a generic text container. It does not create a new line like the p element does. This element is invisible by default but can be used for styling words or phrases within a larger body of text.
+Copy
+<p>This paragraph contains a <span>very important phrase</span> that should be styled in some way.</p>
+<h1>-<h6>
+These are header tags there are intended to be used as a way to present the subject matter of the page. 1 is the most important and 6 is the least important. By default, 1 will be the largest, 2 will be the next largest, and etc.
+Copy
+  <h1>Most Important Headline!</h1>
+  <h3>Sort of important headline.</h3>
+  <h6>Least important headline.</h6>
+How can I inspect an existing web page?
+When learning HTML, it can be useful to investigate existing web pages. There is a tool built into every browser called the inspector that allows us to do this. Just right-click any element on a webpage and select “inspect” or “inspect element”, depending on the browser. This will pop up a sidebar that allows you to explore all the HTML on the web page. It can be overwhelming for a new developer, but it is a good way to get a taste of what goes into building a complex, production web page.
