@@ -1,0 +1,40 @@
+span {
+  color: blue;
+  background-color: pink;
+}
+
+h4 {
+  background-color: pink;
+  height: 40px;
+  width: 100px;
+  font-size: 20pt;
+}
+
+div {
+  border: 1px dashed black;
+  margin:10px;
+  padding:20px;
+  
+}
+
+li {
+  color: green;
+}
+
+#melty {
+  color:orange;
+}
+
+.melty{
+  color:orange;
+  border: solid;
+}
+
+#pie-header{
+  border: none;
+  color:red;
+}
+
+
+
+
